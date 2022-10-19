@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Red+Hat+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
+body {
+  font-family: "Dancing Script", cursive;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1.3rem;
+  padding: 1%;
+  color: #543438;
+  background-color: #eedce1;
+  box-sizing: border-box;
+}
+.header1 {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #9e303d;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+a:visited {
+  color: #7e2378;
+}
+a:hover {
+  color: #d14189;
+}
+a:active {
+  color: #f0364b;
+}
+h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 3rem;
+  color: #653f43;
+}
+h2 {
+  color: #875359;
+}
+p {
+  text-align: left;
+  padding: 0 20em 0 0;
+  text-indent: 2em;
+  line-height: 1.4;
+}
+.h2reasons {
+  text-align: center;
+}
+.reasons {
+  text-align: center;
+  list-style-position: inside;
+  line-height: 1.8;
+
+  list-style-image: url(./img/Sign-check2.png);
+}
+.logo {
+  font-family: "Dancing Script", cursive;
+  color: #653f43;
+}
+.group1 {
+  border-radius: 0 80px 0 80px;
+}
+.group2 {
+  border-radius: 80px 0 80px 0;
+}
+.table2 {
+  border: 3px dotted #653f43;
+  padding: 1em;
+}
+.tr1 {
+  padding: 0.4em;
+  border-bottom: 3px dotted #653f4352;
+}
+tr {
+  border: solid #f0364b;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 0.7em;
+  border: 2px dotted #e2c5ce;
+  box-sizing: border-box;
+  margin: 5px 0 15px 0;
+}
+
+.form-box1 {
+  max-width: 600px;
+  padding: 10px;
+}
+.button-primary {
+  display: inline-block;
+  border: 2px solid #e2c5ce;
+  text-transform: uppercase;
+  color: #653f43;
+  font-weight: 600;
+}
+.button-primary:hover {
+  color: #d14189d3;
+  border-color: #d14189d3;
+}
