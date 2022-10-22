@@ -11,7 +11,9 @@ Responsive webpage using HTML5 and CSS3 to practice CSS flexbox.
 ## Acknowledgements
 
  - [Based on tutorial](https://www.youtube.com/watch?v=3YW65K6LcIA)
-# Hi, I'm Hanna! 👋
+ - [Codepen code](https://codepen.io/bradtraversy/pen/JjrzzOW)
+
+## Hi, I'm Hanna! 👋
 
 
 ## 🚀 About Me
