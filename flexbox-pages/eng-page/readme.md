@@ -5,7 +5,7 @@ Responsive webpage using HTML5 and CSS3 to practice CSS flexbox.
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+<img src="screen ff.img">
 
 
 ## Acknowledgements
