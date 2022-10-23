@@ -5,7 +5,7 @@ Responsive webpage using HTML5 and CSS3 to practice CSS flexbox.
 
 ## Screenshot
 
-<img src="ScreenSH.png">
+<img src="screen_index.png">
 
 
 ## Acknowledgements
