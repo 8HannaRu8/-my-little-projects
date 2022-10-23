@@ -1,16 +1,16 @@
-##Webpage with flexbox in Russian
+## Webpage with flexbox in Russian
 
-##Responsive webpage using HTML5 and CSS3 to practice CSS flexbox.
+Responsive webpage using HTML5 and CSS3 to practice CSS flexbox.
 
 
-## Screenshots
+## Screenshot
 
 <img src="ScreenSH.png">
 
 
 ## Acknowledgements
 
- - [Based on Flexbox Crash Course][https://www.youtube.com/playlist?list=PLM6XATa8CAG5mPV60dMmjMRrHVW4LmV2x]
+ - [Based on Flexbox Crash Course](https://www.youtube.com/playlist?list=PLM6XATa8CAG5mPV60dMmjMRrHVW4LmV2x)
 
 ## Hi, I'm Hanna! 👋
 
