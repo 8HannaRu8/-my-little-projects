@@ -1,6 +1,6 @@
 # Sign up form
 
-A simple sign up form for a site.
+A simple sign up form for a site in blue color shades.
 
 
 ## Screenshots
@@ -9,7 +9,7 @@ A simple sign up form for a site.
 
 
 ## 🚀 About Me
-Hi, I'm Hanna.👋 I'm a front-end developer.
+Hi, I'm Hanna.👋  I'm a front-end developer.
 
 
 ## 🛠 Skills
