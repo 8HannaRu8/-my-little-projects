@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex-box</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="content">
+        <div class="hi">
+          <div class="container">
+            <div class="hi_row">
+              <div class="hi_body">
+                <div class="hi_title">Флексбокс используют</div>
+                <ul class="hi_list">
+                  <li>чтобы убрать недостатки HTML конструкций</li>
+                  <li>чтобы сделать верстку простой</li>
+                  <li>чтобы сделать верстку логичной</li>
+                  <li>чтобы контролировать элементы внутри контейнер</li>
+                </ul>
+              </div>
+              <div class="hi_image">
+                <img
+                  src="/img/flexbox-hero-image.jpeg"
+                  alt="flexbox pic"
+                  width="350"
+                  height="200"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="what">
+          <div class="container">
+            <div class="what_row">
+              <div class="what_image">
+                <img src="/img/image_2.jpg" alt="flexbox-marking" />
+              </div>
+              <div class="what_body">
+                <div class="what_title title">Что такое FlexBox?</div>
+                <div class="what_text">
+                  <p>
+                    Flexbox - это целый модуль, содержащий в себе набор свойств
+                    и их значений как для родителя flex-контейнера так и для его
+                    дочерних элементов flex-элементов.
+                  </p>
+                  <p>
+                    Основным преимуществом гибкой FLEX разметки является
+                    возможность изменять ширину/высоту пространство вокруг и
+                    порядок flex-элементов, для того чтобы наилучшим образом
+                    заполнить доступное пространство flex-контейнера
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="columns">
+          <div class="container">
+            <div class="columns_title title">
+              FlexBox состоит из Контейнера и его Дочерних элементов (items)
+            </div>
+            <div class="columns_row">
+              <div class="columns_column">
+                <div class="columns_item item">
+                  <div class="item_row">
+                    <div class="item_image"><img src="/img/image_3.jpg" /></div>
+                    <div class="item_body">
+                      <div class="item_title">Главная ось</div>
+                      <div class="item_text">
+                        Главное направление движения элементов внутри
+                        контейнера. При смене осей, меняются только направления
+                        движения блоков внутри, а начало, конец и размер
+                        контейнера остаются прежними.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="columns_column">
+                <div class="columns_item item">
+                  <div class="item_row">
+                    <div class="item_image"><img src="/img/image_3.jpg" /></div>
+                    <div class="item_body">
+                      <div class="item_title">Начало и конец главной оси</div>
+                      <div class="item_text">
+                        Элементы располагаются от начала и до конца контейнера.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="columns_column">
+                <div class="columns_item item">
+                  <div class="item_row">
+                    <div class="item_image"><img src="/img/image_3.jpg" /></div>
+                    <div class="item_body">
+                      <div class="item_title">Поперечная ось</div>
+                      <div class="item_text">
+                        Направление движения элементов, когда они не умещаются в
+                        контейнер по направлению главной оси. Поперечная ось
+                        всегда перпендикулярна (⊥) главной.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="columns_column">
+                <div class="columns_item item">
+                  <div class="item_row">
+                    <div class="item_image"><img src="/img/image_3.jpg" /></div>
+                    <div class="item_body">
+                      <div class="item_title">
+                        Начало и конец поперечной оси
+                      </div>
+                      <div class="item_text">
+                        По поперечной оси заполняются ряды от начала и до конца
+                        контейнера. В каждом таком ряду располагаются элементы
+                        (читайте ниже)..
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="vertical">
+          <div class="container">
+            <div class="vertical_title title">Элементы контейнера.</div>
+            <div class="vertical_body">
+              <div class="vertical_row">
+                <div class="vertical_column">
+                  <div class="vertical_item">
+                    <div class="vertical_subtitle">описание</div>
+                    <div class="vertical_label">flex-grow</div>
+                    <div class="vertical_text">
+                      Задает коэффициент увеличения элемента при наличии
+                      свободного места в контейнере. По умолчанию flex-grow: 0
+                      т.е. никакой из элементов не должен увеличиваться и
+                      заполнять свободное место в контейнере.
+                    </div>
+                    <a href="#" class="vertical_btn">пример</a>
+                  </div>
+                </div>
+                <div class="vertical_column">
+                  <div class="vertical_item">
+                    <div class="vertical_subtitle">описание</div>
+                    <div class="vertical_label">flex-shrink</div>
+                    <div class="vertical_text">
+                      <p>
+                        Задает коэффициент уменьшения элемента. Свойство
+                        противоположное flex-grow и определяет как элемент
+                        должен сжиматься, если в контейнере не остается
+                        свободного места.
+                      </p>
+                      <p>
+                        Т.е. свойство начинает работать, когда сумма размеров
+                        всех элементов больше чем размер контейнера.
+                      </p>
+                    </div>
+                    <a href="#" class="vertical_btn">пример</a>
+                  </div>
+                </div>
+                <div class="vertical_column">
+                  <div class="vertical_item">
+                    <div class="vertical_subtitle">описание</div>
+                    <div class="vertical_label">flex-basis</div>
+                    <div class="vertical_text">
+                      Устанавливает базовую ширину элемента - ширину до того как
+                      будут высчитаны остальные условия влияющие на ширину
+                      элемента. Значение можно указать в px, em, rem, %, vw, vh
+                      и т.д. Итоговая ширина будет зависеть от базовой ширины и
+                      значений flex-grow, flex-shrink и контента внутри блока.
+                      При auto элемент получает базовую ширину относительно
+                      контента внутри него.
+                    </div>
+                    <a href="#" class="vertical_btn">пример</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer_row">
+            <div class="footer_text">Флексбокс страница 2022</div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
